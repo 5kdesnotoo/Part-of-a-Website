@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper{
+    background: linear-gradient(109.99deg, #00195B 1.65%, #00091B 98.03%);
+    width:980px;
+    border-radius: 10px;
+    padding: 15px;
+    height: 215px;
+
+}
+.img1{
+    border-radius: 100%;
+    width: 54px;
+    height: 54px;
+}
+.img-h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:15px;
+    font-size:15px;
+}
+.img-h1 h1{
+    margin-left: -556px; 
+}
+.paragraph{
+    color: #898F9C;
+    margin-left: 70px;
+    padding-bottom:15px;
+}
+.date{
+    display:flex;
+    flex-direction:row;
+    margin-left: 66px;
+    gap: 220px;
+    color: #898F9C;
+
+}
+.loading{
+    margin-top: 15px;
+    margin-left:67px;
+    width: 51%;
+    height: 6px;
+    border:1px solid #6181c7;
+    border: none;
+    border-radius: 20px;
+    background-color: #113e4e;
+}
+.loading-line{
+    height:5px;
+    color:#113e4e;
+    border-radius: 20px;
+    background: #2A344D;
+    background: linear-gradient(90deg, rgba(0,63,221,1) 53%, rgb(89, 161, 255) 95%);
+    width:60%;
+}
+.btn1 button{
+    margin-top: 20px;
+    color: white;
+    background-color: #003399;
+    border-radius: 10px;
+    height: 40px;
+    width: 190px;
+    border: none;
+    margin-left:700px;
+}
+@media (max-width:768px){
+    body{
+        display: block;
+        font-size: 15px;
+    }
+    .wrapper {
+        width: 400px;
+        height: 260px;
+
+      }
+      
+        .btn1 button {
+            position: relative;
+            right:633px;
+            width: 350px;
+        }
+
+        .img1{
+            position: relative;
+            left: 20px;
+        }
+        h1{
+            position: relative;
+            left: 310px;
+            font-size: 1.5rem;
+            font-weight: lighter;
+        }
+        .right-section{
+            position: relative;
+            top:30px;
+            left: -123px;
+            display: flex;
+        }
+        h3{
+            position: relative;
+            bottom: 3px;
+        }
+        .paragraph{
+            position: relative;
+            left: -70px;
+            padding-top: 10px;
+        }
+        .date{
+            position: relative;
+            right: 65px;
+            font-size: 10px;
+            display: block;
+        }
+      .p2{
+        position: relative;
+        left: 310px;
+        bottom: 12px;
+      }
+      .whole-loading{
+        position: relative;
+        width: 690px;
+        left: -65px;
+
+      }
+    
+}
